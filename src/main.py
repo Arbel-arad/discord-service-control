@@ -35,5 +35,5 @@ async def speedtest(ctx):
     await ctx.send(speed)
 
 
-discord_key = open("discord.key", 'r')
+discord_key = open("../data/discord.key", 'r')
 bot.run(discord_key.read())
